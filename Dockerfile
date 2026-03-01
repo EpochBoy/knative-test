@@ -24,8 +24,8 @@ RUN apk --no-cache add ca-certificates
 WORKDIR /app
 COPY --from=builder /app/knative-test .
 
-RUN adduser -D -u 65534 appuser
-USER appuser
+# UID 65534 is 'nobody' in Alpine, already exists
+USER nobody
 
 EXPOSE 8080
 
