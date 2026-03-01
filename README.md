@@ -40,7 +40,7 @@ spec:
             - containerPort: 8080
 ```
 
-URL: `https://fn-fibonacci-default.epoch.engineering`
+URL: `https://run-fibonacci-default.epoch.engineering`
 
 ## Build
 
