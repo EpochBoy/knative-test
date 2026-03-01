@@ -45,4 +45,3 @@ URL: `https://fn-fibonacci-default.epoch.engineering`
 ## Build
 
 Built automatically by Argo Workflows CI pipeline on push to main.
-
